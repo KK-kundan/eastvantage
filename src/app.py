@@ -151,6 +151,10 @@ def update_location(request:Request, location_id: str, address_payload: req_mapp
     loc_obj = LocationDetails()
     return loc_obj.update_location(request, location_id, address_payload)
 
+@app.get('/live')
+def get_location_by_id(request: Request, id: str):
+    return "API Trigger Success"
+
 
 
 
