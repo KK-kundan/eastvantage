@@ -155,7 +155,9 @@ def update_location(request:Request, location_id: str, address_payload: req_mapp
 def get_location_by_id(request: Request, id: str):
     return "API Trigger Success"
 
-
+@app.get('/')
+def test():
+    return "hi kundan"
 
 
 if __name__=='__main__':
