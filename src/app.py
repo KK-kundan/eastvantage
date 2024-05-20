@@ -153,7 +153,7 @@ def update_location(request:Request, location_id: str, address_payload: req_mapp
 
 @app.get('/live')
 def get_location_by_id(request: Request, id: str):
-    return "API Trigger Success"
+    return "new deployment"
 
 @app.get('/')
 def test():
