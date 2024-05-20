@@ -157,7 +157,7 @@ def get_location_by_id(request: Request, id: str):
 
 @app.get('/')
 def test():
-    return "hi kundan"
+    return "new-deployment"
 
 
 if __name__=='__main__':
